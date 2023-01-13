@@ -1,0 +1,148 @@
+*{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            width: 1300px;
+            height: fit-content;
+            background-color:  hsl(36, 100%, 99%);
+        }
+        .whole{
+            width: 900px;
+            height: fit-content;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+        }
+        .logo{
+            margin: 100px 0px 20px 20px ;
+        }
+        .navbar ul{
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            text-decoration: none;
+            float: right;
+            margin-top: -65px;
+        }
+        .navbar ul li{
+            font-size: 16px;
+            color: hsl(233, 8%, 79%);
+            justify-content: space-between;
+            list-style: none;
+            text-decoration: none;
+        }
+        .navbar ul li a{
+            color: hsl(240, 1%, 42%);
+            justify-content: space-between;
+            list-style: none;
+            text-decoration: none; 
+            margin-left: 30px;
+        }
+        .navbar ul li a:hover{
+            color: hsl(5, 85%, 63%);
+        }
+        .main{
+            margin: 35px 40px 10px 20px;
+        }
+        .main img{
+            width: 550px;
+            height: 250px;
+            margin-bottom: -20px;
+        }
+        .main h1{
+            font-size: 40px;
+            line-height: 40px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 700;
+            color: hsl(240, 100%, 5%);
+            margin: 60px 0px 0px 0px;
+        }
+        .main p{
+            font-size: 15px;
+            color:hsl(240, 1%, 42%) ;
+            margin: -110px 0px 0px 270px;
+        }
+        .main button{
+            width: 120px;
+            height: 30px;
+            background-color: hsl(5, 85%, 63%);
+            border: none;
+            color: #fff;
+            font-size: 11px;
+            margin: 20px 0px -50px 270px;
+        }
+        .main button:hover{
+            cursor: pointer;
+            background-color:hsl(240, 100%, 5%) ;
+            transition: 0.4s ease-in-out;
+        }
+        .aside{
+            float: right;
+            margin: -424px 0px 0px 600px;
+            background-color:hsl(240, 100%, 5%) ;
+            padding: 40px 15px 30px 15px ;
+        }
+        .aside h2{
+            color: hsl(35, 77%, 62%);
+            font-size: 28px;
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+        .aside h3{
+            color: hsl(36, 100%, 99%);
+            font-size: 18px;
+            font-family: sans-serif;
+            margin-bottom: 15px;
+        }
+        .aside h3:hover{
+            cursor: pointer;
+            color:hsl(35, 77%, 62%) ;
+        } 
+        .aside p{
+            color: hsl(240, 1%, 53%);
+            font-size: 15px;
+            line-height: 22px;
+        }
+        .aside hr{
+            color: hsl(240, 1%, 53%);
+            margin: 8px 0px 8px 0px;
+        }
+        .footer{
+            margin: 80px 0px 50px 20px;
+        }
+        .footer ul{
+            display: flex;
+            flex-direction: row;
+        }
+        .footer ul li{
+           list-style: none;
+           display: flex;
+           flex-direction: column;
+
+        }
+        .footer ul li img{
+            height: 100px;
+            width: 80px;
+            margin-right: 160px;
+        }
+        .footer ul li h4{
+            color:hsl(240, 1%, 53%) ;
+            margin: -100px 10px 5px 95px;
+            font-size: 22px;
+        }
+        .footer ul li h5{
+            margin: -0px 10px 8px 95px;
+            font-size: 19px;
+            color: hsl(240, 100%, 5%);
+        }
+        .footer ul li h5:hover{
+            color: hsl(5, 85%, 63%);
+            cursor: pointer;
+        }
+        .footer ul li p{
+            margin: 0px 10px 0px 95px;
+            color:hsl(240, 1%, 53%) ;
+            font-size: 15px;
+        }
